@@ -1,0 +1,54 @@
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: utf-8
+    max-threads: 800
+    accept-count: 2000
+    min-spare-threads: 10
+  servlet:
+    context-path: /
+
+spring:
+  #数据源配置
+  datasource:
+    name: msUserData
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.17.20.14:3306/ms_user_group?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&failOverReadOnly=false
+    username: rw_gofun
+    password: TestMySQL2018
+    hikari:
+      poolName: hikariCP4GoFun
+      maximumPoolSize: 200
+      minimumIdle: 100
+      autoCommit: true
+      idleTimeout: 120000  #连接空闲时间2分钟
+      maxLifetime: 600000 #一个连接的存活时长ms 10分钟
+      connectionTimeout: 30000 #获取连接最大等待时长 30s
+#编码格式
+http:
+  encoding:
+    force: true
+    charset: UTF-8
+    enabled: true
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
+    cache: false
+    encoding: UTF-8
+    mode: HTML5
+
+
+#处理oracle 传递null值出现的错误
+mybatis:
+  configuration:
+    jdbc-type-for-null: 'null'
+    type-aliases-package: com.htjc.ded.entity
+    mapper-locations: classpath:mapper/*.xml
+
+#pageHelper
+pagehelper:
+  helper-dialect: oracle
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
