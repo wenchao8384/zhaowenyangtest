@@ -14,6 +14,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -80,11 +88,24 @@
       <workItem from="1585719851124" duration="2939000" />
       <workItem from="1585728701198" duration="3208000" />
       <workItem from="1585791208774" duration="1708000" />
+      <workItem from="1587390250200" duration="256000" />
     </task>
+    <task id="LOCAL-00001" summary="11111">
+      <created>1587390401163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587390401164</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="11111" />
+    <option name="LAST_COMMIT_MESSAGE" value="11111" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="202" key="#Project_Structure" timestamp="1585728295709">
