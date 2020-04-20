@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8425cdbb-4952-4769-a43c-9a36267858bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/zhaowenyangtest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8425cdbb-4952-4769-a43c-9a36267858bc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,15 +96,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="202" key="#Project_Structure" timestamp="1585728295709">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="202" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1585728295709" />
-    <state x="560" y="130" key="CommitChangelistDialog2" timestamp="1587390369408">
+    <state x="560" y="130" key="CommitChangelistDialog2" timestamp="1587391250358">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="130" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1587390369408" />
+    <state x="560" y="130" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1587391250358" />
     <state width="1877" height="514" key="GridCell.Tab.0.bottom" timestamp="1585738538578">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
